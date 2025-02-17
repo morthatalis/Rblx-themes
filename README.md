@@ -7,7 +7,9 @@ All of these themes are able to be made via an browser-extension [Stylus](https:
 - 1. Get the extension
 - 2. Click on the extension button
 - 3. Click "Manage"
-- 4. Click the plus icon ![image](https://github.com/user-attachments/assets/f7c8bd9f-c613-49d8-a2d1-a1c8098b64a6)
+- 4. Click the plus icon
+  - ![image](https://github.com/user-attachments/assets/f7c8bd9f-c613-49d8-a2d1-a1c8098b64a6)
+-
 - 5. Choose the name for the style.
 - 6. Look at the top of the page and look for "Code 1" and click under that "URLs on the domain".
 - 7. Next to that button, now should show a textbar to input "roblox.com".
