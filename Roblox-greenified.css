@@ -1,7 +1,81 @@
+/* ^https:\/\/www\.roblox\.com\/users.*friends#!\/friends$ */
+div:has(.container-header) {
+    padding-bottom:10px;
+}
+.friends-subtitle {
+    padding-bottom:20px;
+    transform: translateY(15px);
+    font-size:0px !important;
+}
+.friends-subtitle::before{
+    content:"Friends";
+    font-size:20px;
+}
+
+/* roblox.com*/
+h2:has(.friends-count) {
+    font-size:0px;
+}
+h2:has(.friends-count)::before{
+    content:"Friends";
+    font-size:20px;
+}
+.friends-filter-searchbar-input:placeholder-shown {
+    opacity:0;
+}
+
+span[title="Connect"] {
+    color: transparent;
+}
+span[title="Connect"]:before {
+    content:"Friends" !important;
+    font-size:16px;
+    color:white;
+}
+#nav-friends :before{
+    content:"";
+}
+a[href="/users/friends#!/friend-requests"] .friends-carousel-display-name{
+    font-size:0px;
+}
+a[href="/users/friends#!/friend-requests"] .friends-carousel-display-name:before{
+    content:"Add Friends";
+    font-size:16px;
+}
+.friend-tile-button:has(a[href="/users/friends#!/friend-requests"]) {
+    width:0px !important;
+}
+
+div:has(.icon-nav-friends):before{
+    font-size:0px;
+}
+.friends-title{
+    padding-top:20px;
+    padding-Bottom:0px;
+    font-size:0px !important;
+}
+.friends-title::before{
+    content:"My Friends";
+    font-size:32px;
+}
+
+/*.rbx-tab-heading[href="#!/friends"]:has(.text-lead){
+    font-size:0px;
+}*/
+.friends-count {
+    font-size:20px;
+}
 .content {
     background-color: #222426 !important;
 }
-.btn-common-play-game-lg {
+#friend-button{
+	border-radius: 2px !important;
+}
+.web-blox-css-tss-1283320-Button-textContainer{
+    /*font-style: unset !important;*/
+    font-weight: normal !important;
+}
+.btn-common-play-game-lg{
     background-color: #00bf5a !important;
 }
 .notif-row-right-button{
@@ -10,20 +84,20 @@
 .container-main{
     background-color: #222426 !important;
 }
-.profile-header-content{
+.profile-header-content, .profile-stats-container{
     background-color: #3a3a3a !important;
 }
 .rbx-tab-heading{
     background-color: #3a3a3a !important;
 }
-.profile-avatar-mask{
+.profile-avatar-mask, .menu-option, .item-cards{
     background-color: #181818 !important;
+}
+.rbx-left-col {
+    background-color: #202020!important;
 }
 .profile-avatar-left{
     background-color: #191919!important;
-}
-.profile-collections{
-   background-color: #191919!important;
 }
 .slide-item-container-right{
     background-color: #202222!important;
@@ -31,13 +105,23 @@
 .slide-item-container-left{
     background-color: #1a1a1a!important;
 }
-.section-content{
-    background-color: #191919!important;
+.section-content:has(.badge-list), .badge-list:has(.asset-item), .section-content:has(.hlist), .hlist:has(.game-card), .hlist:has(.badge-item) .profile-collections, .section-content .collections-list, .hlist, .list-item, .badge-item{
+    background-color: #222426 !important;
 }
+.section-contect:has(.profile-current-wearing-avatar){
+    opacity: 0%;
+}
+a .btn-growth-md .btn-more{
+    background-color: #222426 !important;
+}
+.table.summary{
+    background-color: #222426 !important;
+}
+
 .catalog-header{
     background-color: #222426 !important;
 }
-.search-bar-placement-right{
+.search-bar-placement-right {
     background-color: #222426 !important;
 }
 .topic-container{
@@ -78,8 +162,20 @@
     color:#7e7a7d;
 }
 
-.rbx-game-server-item .card-item{
+.refresh-link-icon{
+    background-color: #222426 !important;
+}
+
+.rbx-running-games-load-more{
+    background-color: #3a3a3a !important;
+}
+
+.card-item{
     background-color: #3a3a3a !important; 
+}
+
+.rbx-game-server-item-container{
+    background-color: #222426 !important;
 }
 
 .rbx-body.dark-theme{
@@ -102,7 +198,7 @@ ul:has(li){
     background-color:#202020;
 }
 
-.rbx-game-server-join{
+.rbx-game-server-join, .web-blox-css-tss-lo77dr-Button-contained.MuiButton-containedPrimary{
     background-color: #00bf5a !important;
 }
 
@@ -151,4 +247,11 @@ ul:has(li){
 
 .collections-list{
     background-color: #191919!important;
+}
+
+.wide-event-play-button, .profile-join-game{
+    background-color: #00bf5a !important;
+}
+.hlist, .games, .game-cards, .game-tile-list, .games-page-carousel{
+    background-color: #181818 !important;
 }
